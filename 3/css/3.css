@@ -1,0 +1,36 @@
+body,figure,figcaption,h5,p,img{
+	margin:0;
+	padding:0;
+}
+figure{
+	width: 33.33%;
+	height: 220px;
+position:relative;
+float:left;
+background-color: aquamarine;
+}
+figcaption{
+position:absolute;
+top:0px;
+left:0px;	
+	
+} 
+@media  and screen (max-width:650px)
+	figure{
+	width:100%;
+	}
+}
+
+@media  and screen (min-width:651px) and (max-width:1000px)
+	figure{
+	width:50%;
+	}
+}
+
+
+@media  and screen (min-width:1001px)
+	figure{
+	width:33.33%;
+	}
+
+}
